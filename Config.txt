@@ -1,0 +1,9 @@
+Dumpfilename1 ../CoordWrapped/ParticleCoordW
+Start 100000000
+Stop 200000000
+Interval 10000000
+Flag 1
+LayerTickness 0.5
+
+//Flag 1: Gradient Direction
+//Flag 2: Vorticity Direction
