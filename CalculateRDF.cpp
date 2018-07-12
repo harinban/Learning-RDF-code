@@ -29,7 +29,7 @@ int main()
 	DumpFileDataSphere D1,D2;
 	D1.ReadfromFile(FilenameDotTimestep(DumpFilename1,StartTime).c_str());
 	Lx = D1.BoxMax.x - D1.BoxMin.x; 
-    Ly = D1.BoxMax.y - D1.BoxMin.y;
+        Ly = D1.BoxMax.y - D1.BoxMin.y;
 	Lz = D1.BoxMax.z - D1.BoxMin.z;
 	D1.DestroyDumpFileData();
 	double L_half = Lz/2.0;

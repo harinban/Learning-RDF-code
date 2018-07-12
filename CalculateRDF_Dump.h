@@ -3,7 +3,7 @@ void RDF_3D(DumpFileDataSphere D1, double * rdf, int &NumberofBins, double &BinS
 	double Lx, Ly, Lz,  Distance;
 	Coord Delta;
 	Lx = D1.BoxMax.y - D1.BoxMin.y; 
-    	Ly = D1.BoxMax.y - D1.BoxMin.y;
+    Ly = D1.BoxMax.y - D1.BoxMin.y;
 	Lz = D1.BoxMax.z - D1.BoxMin.z;
 	double L_half = Ly/2.0;
 	int BinIndex;
